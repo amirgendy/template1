@@ -1,0 +1,93 @@
+/*  3.8- contact section */
+
+.contact{
+
+}
+
+.contact-container{
+	overflow: hidden;
+}
+
+.contact-item{
+	width: 30%;
+	float: left;
+	text-align: center;
+}
+
+.contact-item.mg{
+	margin: 0 5%;
+}
+
+.contact-item i{
+	color: var(--maincolor);
+	margin-bottom: 15px;
+}
+
+.contact-item-title{
+	text-transform: capitalize;
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+
+.contact-item-desc{
+	color: #999;
+
+}
+.form{
+	margin: 0 5%;
+}
+
+.form-item{
+	overflow: hidden;
+	width: 60%;
+	margin: auto;
+}
+.form-item .item{
+float: left;
+width: 45%;
+margin:auto;
+}
+.form-item .item.mg{
+	margin: 10px;
+}
+.form-item input{
+	border: 1px solid #D9D9D9;
+	padding: 10px;
+	background-color: #F2F2F2;
+}
+
+.subject-message{
+	width: 60%;
+	margin: auto;
+}
+
+.subject,
+.message{
+	display: block;
+	width: 95%;
+	border: 1px solid #D9D9D9;
+	padding: 10px;
+	background-color: #F2F2F2;
+}
+
+.subject-message .subject{
+	margin-bottom: 10px;
+}
+
+.subject-message.mg{
+	margin-right: 2%;
+}
+
+.message{
+	margin-bottom: 20px;
+}
+
+.send{
+	display: block;
+	margin: 10px auto;
+	padding: 10px 30px;
+	border-radius: 10px;
+	background-color: var(--maincolor);
+	color: #ffffff;
+	cursor: pointer;
+}

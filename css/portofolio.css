@@ -1,0 +1,96 @@
+/*  3.3- Portofolio section */
+
+.portofolio{
+	background-color: #f9f9f9;
+}
+
+.portofolio-content{
+	overflow: hidden;
+}
+
+.portofolio-item{
+	width: 32%;
+	float: left;
+	margin-bottom: 30px;
+	position: relative;
+	padding: 20px;
+}
+
+.portofolio-item .layer-content{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color:rgba(0, 0,0, 0.5);
+	opacity: 0;
+	visibility: hidden;
+	transition: opacity 0.2s;
+}
+
+.portofolio-item:hover .layer-content{
+	opacity: 1;
+	visibility: visible;
+}
+.portofolio-item .layer-info{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	width: 80%;
+	text-align: center;
+	transform: translate(-50%, -50%);
+}
+
+.layer-content .category{
+	color: var(--maincolor);
+	text-transform: uppercase;
+	display: block;
+	margin-bottom: 10px;
+	position: relative;
+	top: 10px;
+	opacity: 0;
+	transition: top 0.5s, opacity 0.5s;
+	transition-delay:  0.2s;
+}
+
+.layer-content-title{
+	font-size: 20px;
+	color: #ffffff;
+	margin-bottom: 10px;
+	position: relative;
+	top: 10px;
+	opacity: 0;
+	transition: top 0.5s, opacity 0.5s;
+	transition-delay: 0.3s;
+}
+
+.layer-content a{
+	color: #ffffff;
+	position: relative;
+	top: 10px;
+	opacity: 0;
+	transition: top 0.5s, opacity 0.5s;
+	transition-delay: 0.4s;
+}
+
+.layer-content a i{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	background-color: var(--maincolor);
+}
+.portofolio-item:hover .layer-content-title,
+.portofolio-item:hover .layer-content a,
+.portofolio-item:hover .layer-content .category{
+	top: 0;
+	opacity: 1;
+}
+
+.portofolio-item.mg{
+	margin: 0 2%;
+}
+
+.portofolio-item img{
+	width: 100%;
+}

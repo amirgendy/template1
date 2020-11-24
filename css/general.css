@@ -1,0 +1,46 @@
+/* 2- general css style */
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root{
+	--maincolor : #6195ff;
+	--graycolor : #999999;
+	--bg-gray : #f9f9f9;
+	--whitecolor : #fff;
+}
+
+.container{
+	width: 80%;
+	margin: auto
+}
+
+body{
+	font-family: 'Varela Round', sans-serif;
+}
+
+.clear{
+	clear: both;
+}
+
+h1, h2 , h3, h4, h5, h6{
+	font-family: monteserrate, sans-serif ;
+}
+
+ul{
+	list-style: none;
+}
+.btn{
+	font-family: inherit;
+}
+
+a{
+	text-decoration: none;
+}
+
+.pd-y{
+	padding: 120px 0;
+}
